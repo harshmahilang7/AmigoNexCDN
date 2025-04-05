@@ -2,7 +2,7 @@
  * @Author: Your name
  * @Date:   2025-04-05 01:27:58
  * @Last Modified by:   Your name
- * @Last Modified time: 2025-04-05 12:48:49
+ * @Last Modified time: 2025-04-05 13:13:25
  */
 /* -------------------------------------------
 
@@ -144,13 +144,13 @@ document.addEventListener("DOMContentLoaded", function () {
     //     });
     // }
 
-    addHoverEffect(".mil-c-light", "mil-light-active");
-    addHoverEffect(".mil-c-dark", "mil-dark-active");
-    addHoverEffect(".mil-c-gone", "mil-gone-active");
-    addHoverEffect(".mil-c-view", "mil-view-active");
-    addHoverEffect(".mil-c-next", "mil-next-active");
-    addHoverEffect(".mil-c-read", "mil-read-active");
-    addHoverEffect(".mil-c-swipe", "mil-swipe-active");
+    // addHoverEffect(".mil-c-light", "mil-light-active");
+    // addHoverEffect(".mil-c-dark", "mil-dark-active");
+    // addHoverEffect(".mil-c-gone", "mil-gone-active");
+    // addHoverEffect(".mil-c-view", "mil-view-active");
+    // addHoverEffect(".mil-c-next", "mil-next-active");
+    // addHoverEffect(".mil-c-read", "mil-read-active");
+    // addHoverEffect(".mil-c-swipe", "mil-swipe-active");
 
     document.addEventListener("mousemove", function (e) {
         mouseX = e.clientX;
