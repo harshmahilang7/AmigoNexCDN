@@ -1,3 +1,9 @@
+/**
+ * @Author: Your name
+ * @Date:   2025-04-05 01:27:58
+ * @Last Modified by:   Your name
+ * @Last Modified time: 2025-04-05 12:48:49
+ */
 /* -------------------------------------------
 
 Name: 		 Pixy
@@ -127,16 +133,16 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 
-    function addHoverEffect(selector, className) {
-        document.querySelectorAll(selector).forEach(function (link) {
-            link.addEventListener("mouseenter", function () {
-                follower.classList.add(className);
-            });
-            link.addEventListener("mouseleave", function () {
-                follower.classList.remove(className);
-            });
-        });
-    }
+    // function addHoverEffect(selector, className) {
+    //     document.querySelectorAll(selector).forEach(function (link) {
+    //         link.addEventListener("mouseenter", function () {
+    //             follower.classList.add(className);
+    //         });
+    //         link.addEventListener("mouseleave", function () {
+    //             follower.classList.remove(className);
+    //         });
+    //     });
+    // }
 
     addHoverEffect(".mil-c-light", "mil-light-active");
     addHoverEffect(".mil-c-dark", "mil-dark-active");
